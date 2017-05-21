@@ -17,6 +17,9 @@ header {
 	padding: 7px 0;
 	font-size: 21px;
 }
+#menu div {
+	display: inline-block;
+}
 #menu > div .small-4 span {
 	font-size: 21px;
 	margin-right: 12px;
@@ -48,8 +51,7 @@ header {
 
 @media (min-width:641px)  {
 	#menu .row {
-
-		font-size: 70px;
+		    font-size: 15px;
 	}/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  {
 	#menu .row {
