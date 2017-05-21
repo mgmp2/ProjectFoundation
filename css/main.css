@@ -75,8 +75,14 @@ header {
 	}
 	#input-search > span:last-child {
 		background: #fff;
-border: 1px solid;
-border-left: none;
+		border: 1px solid;
+		border-left: none;
+	}
+	.fi-shopping-bag {
+		margin:0 ;
+	}
+	#box-menu-2 > div:last-child {
+		padding: 0 14px;
 	}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  {

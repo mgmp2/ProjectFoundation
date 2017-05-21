@@ -37,13 +37,14 @@
         </div>
       </div>
       <div class="row" id="box-menu-2">
-        <div class="small-2 column show-for-small-only">
-          <span class="fi-list"></span>
+        <div class="small-2 column show-for-small-only" data-responsive-toggle="example-menu">
+          <!-- <span class="fi-list"></span> -->
+            <button class="fi-list" type="button" data-toggle="example-menu"></button>
         </div>
         <div class="small-8 medium-2 column text-center">
           <img src="assets/img/email/fab_logo.png" alt="">
         </div>
-        <div class="small-1 medium-6 column" id="search-icon">
+        <div class="small-1 medium-5 column" id="search-icon">
           <div class="box-icon show-for-small-only">
             <span class="fi-magnifying-glass "></span>
           </div>
@@ -61,27 +62,127 @@
             </span>
           </div>
         </div>
-        <div class="small-1 medium-4 colum">
+        <div class="small-1 medium-5 colum text-right">
           <a href="#" class="hide-for-small-only">Fab Insider &#65372; </a>
           <a href="#" class="hide-for-small-only">Registry &#65372; </a>
           <span class="fi-shopping-bag"></span>
           <a href="#" class="hide-for-small-only">&#65372; Login</a>
         </div>
       </div>
-      <div class="row hide-for-small-only" id="box-menu-3">
-        <ul class="menu expanded">
-          <li><a href="#">NEW ARRIVALS</a></li>
-          <li><a href="#">ART</a></li>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">WOMEN</a></li>
-          <li><a href="#">MEN</a></li>
-          <li><a href="#">TECH</a></li>
-          <li><a href="#">FUN</a></li>
-          <li><a href="#">FEATURED DESIGNER</a></li>
-          <li><a href="#">BOUTIQUE</a></li>
-          <li><a href="#">BLOGGER</a></li>
+      <div class="row " id="box-menu-3">
+        <div class="medium-12 small-12">
+          <!-- <ul class="menu dropdown expanded" data-dropdown-menu>
+            <li class="menu-text">NEW ARRIVALS</li>
+            <li class="has-submenu">
+              <a href="#0">ART</a>
+                  <ul class="submenu menu vertical" data-submenu>
+                    <div class="row">
+                      <div class="medium-2 vertical nested">
+                        <li><a href="#">Featured Styles</a></li>
+                        <li><a href="#">Featured Subjects</a></li>
+                        <li><a href="#">Featured Types</a></li>
+                        <li><a href="#">All</a></li>
+                      </div>
+                      <div class="medium-2 vertical nested">
+                        <li><a href="#">Home Décor</a></li>
+                        <li><a href="#">Kitchen</a></li>
+                        <li><a href="#">Dining</a></li>
+                        <li><a href="#">Bed &amp; Bath</a></li>
+                      </div>
+                      <div class="medium-2">
+                        <li><a href="#">ART1</a></li>
+                        <li><a href="#">ART</a></li>
+                        <li><a href="#">ART</a></li>
+                        <li><a href="#">ART</a></li>
+                      </div>
+                      <div class="medium-2">
+                        <li><a href="#">ART1</a></li>
+                        <li><a href="#">ART</a></li>
+                        <li><a href="#">ART</a></li>
+                        <li><a href="#">ART</a></li>
+                      </div>
+                      <div class="medium-2">
+                        <li><a href="#">ART1</a></li>
+                        <li><a href="#">ART</a></li>
+                        <li><a href="#">ART</a></li>
+                        <li><a href="#">ART</a></li>
+                      </div>
+                      <div class="medium-2">
+                        <img src="assets/img/menu-art.jpg" alt="">
+                      </div>
+                    </div>
+                  </ul>
+            </li>
+            <li><a href="#">HOME</a>
+              <ul class="menu vertical nested">
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+              </ul>
+            </li>
+            <li><a href="#">WOMEN</a>
+              <ul class="menu vertical nested">
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+              </ul>
+            </li>
+            <li><a href="#">MEN</a>
+              <ul class="menu vertical nested">
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+              </ul>
+            </li>
+            <li><a href="#">TECH</a>
+              <ul class="menu vertical nested">
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+              </ul>
+            </li>
+            <li><a href="#">BLOGGER</a>
+              <ul class="menu vertical nested">
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+                <li><a href="#">ART</a></li>
+              </ul>
+            </li>
 
-        </ul>
+          </ul> -->
+          <div class="top-bar" id="example-menu">
+            <div class="row">
+            <div class="columns">
+              <ul class="vertical menu" data-accordion-menu >
+                <li class="menu-text">NEW ARRIVALS</li>
+                <li>
+                  <a href="#">ART</a>
+                  <ul class="menu vertical nested">
+                    <li><a href="#">Featured Styles</a></li>
+                     <li><a href="#">Featured Subjects</a></li>
+                     <li><a href="#">Featured Types</a></li>
+                     <li><a href="#">All</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Home</a>
+                  <ul class="menu vertical nested">
+                    <li><a href="#">Home Décor</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="#">Bed &amp; Bath</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </header>
     <section id="palabras">
