@@ -17,7 +17,7 @@ header {
 	padding: 7px 0;
 	font-size: 21px;
 }
-#menu div {
+#box-menu-1 div {
 	display: inline-block;
 }
 #menu > div .small-4 span {
@@ -34,13 +34,13 @@ header {
 	width: 70px;
 	cursor: pointer;
 }
-.box-icon , .fi-list {
+.box-icon , .fi-list , .fi-shopping-bag{
 	color: gray;
 	font-size: 24px;
 	cursor: pointer;
 	margin-right: 14px;
 }
-.box-icon {
+#search-icon .box-icon {
 	transform: scaleX(-1);
 
 }
@@ -48,7 +48,7 @@ header {
 	color: black;
 }
 #palabras {
-	margin-top: 100px;
+	margin-top: 170px;
 }
 
 
@@ -57,10 +57,27 @@ header {
 		    font-size: 15px;
 	}
 	[name="search"] {
-		transform: scaleX(-1);
 		display: inline-block;
 	}
-
+	.box-icon {
+		margin-right: 0;
+	}
+	#input-search > span:first-child {
+		background: #fff;
+		border: 1px solid #333;
+		border-right: none;
+	}
+	#input-search > input {
+		border: 1px solid black;
+		box-shadow: none;
+		border-left: none;
+		color: #333;
+	}
+	#input-search > span:last-child {
+		background: #fff;
+border: 1px solid;
+border-left: none;
+	}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  {
 	#menu .row {
