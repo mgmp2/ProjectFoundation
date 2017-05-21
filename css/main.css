@@ -2,3 +2,45 @@ body, html {
 	background-color: #fff !important;
 }
 /*MENU*/
+/*ALERT: es de fondo negro con letras blancas
+sucess: es de fondo blanco con letras negras*/
+header {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+}
+#menu .row {
+	display: flex;
+	align-items: center;
+	padding: 7px 0;
+	font-size: 21px;
+}
+#menu > div .small-4 span {
+	font-size: 21px;
+	margin-right: 12px;
+}
+#menu div:first-child a {
+	cursor: pointer;
+}
+#menu > div:nth-child(2) {
+	background: #fff;
+}
+#menu > div:nth-child(2) img {
+	width: 70px;
+	cursor: pointer;
+}
+.box-icon , .fi-list {
+	transform: rotateY(180deg);
+	color: gray;
+	font-size: 24px;
+	cursor: pointer;
+	margin-right: 14px;
+}
+.box-icon span:hover{
+	color: black;
+}
+#palabras {
+	margin-top: 100px;
+}
