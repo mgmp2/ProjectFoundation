@@ -44,3 +44,15 @@ header {
 #palabras {
 	margin-top: 100px;
 }
+
+
+@media (min-width:641px)  {
+	#menu .row {
+
+		font-size: 70px;
+	}/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  {
+	#menu .row {
+
+		font-size: 170px;
+	}/* tablet, landscape iPad, lo-res laptops ands desktops */ }
