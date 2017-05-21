@@ -35,11 +35,14 @@ header {
 	cursor: pointer;
 }
 .box-icon , .fi-list {
-	transform: rotateY(180deg);
 	color: gray;
 	font-size: 24px;
 	cursor: pointer;
 	margin-right: 14px;
+}
+.box-icon {
+	transform: scaleX(-1);
+
 }
 .box-icon span:hover{
 	color: black;
@@ -52,7 +55,13 @@ header {
 @media (min-width:641px)  {
 	#menu .row {
 		    font-size: 15px;
-	}/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+	}
+	[name="search"] {
+		transform: scaleX(-1);
+		display: inline-block;
+	}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  {
 	#menu .row {
 
