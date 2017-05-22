@@ -112,6 +112,9 @@ a {
 		font-size: 12px;
 		margin: 0;
 	}
+	.box-icon *{
+		font-size: 24px!important;
+	}
 	#palabras {
 		font-size: 25px;
 	}
