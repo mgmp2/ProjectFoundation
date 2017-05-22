@@ -10,6 +10,7 @@ header {
 	right: 0;
 	position: fixed;
 	width: 100%;
+	z-index: 1000;
 }
 a {
 	color: #000;
@@ -87,10 +88,6 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 		vertical-align: top;
 	}
 
-	.clearfix{
-	  clear: both;
-	  overflow: hidden;
-	}
 	.paddtopBottom{
 	  padding: 14px 0;
 	}
@@ -126,27 +123,7 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	  padding: 14px 0px;
 	}
 
-	@media only screen and (min-width: 641px) {
-	  #huge{
-	    height: 334px;
-	    width: 100%;
-	  }
-	  #catalogProducts .columns{
-	    padding: 14px 0px;
-	  }
-	}
-	@media only screen and (min-width: 1025px){
-	  #huge{
-	    height: 540px;
-	    width: 100%;
-	  }
-	  #catalogProducts .columns{
-	    padding: 0px 14px;
-	  }
-	  #catalogProductSeasons{
-	    padding-bottom: 28px;
-	  }
-	}
+
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:1025px)  {
 	#menu .row {
@@ -168,4 +145,24 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	#palabras {
 		font-size: 25px;
 	}
+	#huge{
+		height: 540px;
+		width: 100%;
+	}
+	#catalogProducts .columns{
+		padding: 0px 14px;
+	}
+	#catalogProductSeasons{
+		padding-bottom: 28px;
+	}
 /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+@media only screen and (min-width: 641px) {
+	#huge{
+		height: 334px;
+		width: 100%;
+	}
+	#catalogProducts .columns{
+		padding: 14px 0px;
+	}
+}
