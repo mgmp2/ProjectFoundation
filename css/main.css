@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Asar|Droid+Serif|Lato');
 body, html {
 	background-color: #fff !important;
 }
@@ -23,8 +24,8 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	align-items: center;
 	padding: 7px 0;
 	font-size: 21px;
-}
 
+}
 .container {
 	width: 100%;
 }
@@ -52,6 +53,68 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	background: rgba(91, 240, 93, 0.25);
 	margin-top: 170px;
 }
+.paddtopBottom{
+  padding: 14px 0;
+}
+.slider {
+  width: 1200px;
+  margin: 0 0 0 100px;
+  background: none;
+}
+.imgcarousel{
+  width: 230px;
+}
+
+.slick-slide {
+  width: 230px;
+  margin: 0px;
+}
+
+.slick-slide img {
+  width: 230px;
+}
+/*.slick-prev, .slick-next{
+  top:100px!important;
+}*/
+.slick-prev:before,
+.slick-next:before {
+    color: black!important;
+}
+.h2descripcion{
+	color: #171717;
+	font-family: 'Lato', sans-serif;
+}
+.freeshipping{
+	color: #d0021b;
+	display: inline-block;
+}
+.spanheart{
+	color: #d0021b;
+	border: 1px solid #d0021b;
+	padding: 14px;
+
+}
+.socialcar{
+	font-size: 32px;
+	padding: 14px 21px;
+}
+#btnaddcar{
+	background-color: #d0021b;
+	color: #ffffff;
+	padding: 14px 35px;
+	font-weight: bold;
+}
+#huge{
+
+height: 334px;
+  width: 100%;
+}
+
+#catalogProducts .columns{
+
+padding: 14px 0px;
+}
+
 @media (min-width:641px)  {
 	#menu .row {
 		font-size: 15px;
@@ -87,55 +150,14 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	.menu > li {
 		vertical-align: top;
 	}
-
-	.paddtopBottom{
-	  padding: 14px 0;
-	}
-	.slider {
-	  width: 1200px;
-	  margin: 0 0 0 100px;
-	  background: none;
-	}
-	.imgcarousel{
-	  width: 230px;
-	}
-
-	.slick-slide {
-	  width: 230px;
-	  margin: 0px;
-	}
-
-	.slick-slide img {
-	  width: 230px;
-	}
-	/*.slick-prev, .slick-next{
-	  top:100px!important;
-	}*/
-	.slick-prev:before,
-	.slick-next:before {
-	    color: black!important;
-	}
 	#huge{
-	  height: 334px;
-	  width: 100%;
-	}
-	#catalogProducts .columns{
-	  padding: 14px 0px;
-	}
+	 height: 334px;
+	 width: 100%;
+ }
+ #catalogProducts .columns{
+	 padding: 14px 0px;
+ }
 
-
-	@media only screen and (min-width: 1025px){
-	  #huge{
-	    height: 540px;
-	    width: 100%;
-	  }
-	  #catalogProducts .columns{
-	    padding: 0px 14px;
-	  }
-	  #catalogProductSeasons{
-	    padding-bottom: 28px;
-	  }
-	}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:1025px)  {
 	#menu .row {
@@ -157,15 +179,15 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	#palabras {
 		font-size: 25px;
 	}
+	#huge{
+    height: 540px;
+    width: 100%;
+  }
+  #catalogProducts .columns{
+    padding: 0px 14px;
+  }
+  #catalogProductSeasons{
+    padding-bottom: 28px;
+  }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-
-@media only screen and (min-width: 641px) {
-	#huge{
-		height: 334px;
-		width: 100%;
-	}
-	#catalogProducts .columns{
-		padding: 14px 0px;
-	}
-}
