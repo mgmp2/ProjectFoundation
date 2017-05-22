@@ -23,6 +23,7 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	padding: 7px 0;
 	font-size: 21px;
 }
+
 .container {
 	width: 100%;
 }
@@ -150,6 +151,9 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 @media (min-width:1025px)  {
 	#menu .row {
 		max-width: 100%;
+	}
+	#catalogProducts .row{
+		max-width: 90%;
 	}
 	.container {
 		width: 90%;
