@@ -47,14 +47,12 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	color: black;
 }
 #palabras {
+	background: rgba(91, 240, 93, 0.25);
 	margin-top: 170px;
 }
 @media (min-width:641px)  {
 	#menu .row {
 		font-size: 15px;
-	}
-	[name="search"] {
-		display: inline-block;
 	}
 	.box-icon {
 		margin-right: 0;
@@ -83,9 +81,6 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	}
 	.submenu-img {
 		width: 400px;
-	}
-	.submenu-img img {
-		width: 100%;
 	}
 	.menu > li {
 		vertical-align: top;
