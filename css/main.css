@@ -30,7 +30,7 @@ a {
 	font-size: 21px;
 	margin-right: 12px;
 }
-#menu div:first-child a {
+#menu > div:first-child a {
 	cursor: pointer;
 }
 #menu > div:nth-child(2) {
@@ -103,17 +103,23 @@ a {
 @media (min-width:1025px)  {
 	#menu .row {
 		max-width: 100%;
+
 	}
 	.container {
 		width: 90%;
-		margin: 0 auto;
+		margin: 0 auto!important;
 	}
-	#menu div:first-child * {
+	.container > div:last-child {
+		display: inline-block;
+	}
+	#menu > div:first-child * {
 		font-size: 12px;
-		margin: 0;
 	}
 	.box-icon *{
 		font-size: 24px!important;
+	}
+	#menu > div:nth-child(2) img {
+		
 	}
 	#palabras {
 		font-size: 25px;
