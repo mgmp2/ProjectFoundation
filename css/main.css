@@ -3,13 +3,19 @@ body, html {
 }
 /*MENU*/
 /*ALERT: es de fondo negro con letras blancas
-sucess: es de fondo blanco con letras negras*/
+warning: es de fondo blanco con letras negras*/
 header {
 	top: 0;
 	left: 0;
 	right: 0;
 	position: fixed;
 	width: 100%;
+}
+.container {
+	width: 100%;
+}
+a {
+	color: #000;
 }
 #menu .row {
 	display: flex;
@@ -84,9 +90,29 @@ header {
 	#box-menu-2 > div:last-child {
 		padding: 0 14px;
 	}
+	.submenu-img {
+		width: 400px;
+	}
+	.submenu-img img {
+		width: 100%;
+	}
+	.menu > li {
+		vertical-align: top;
+	}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px)  {
+@media (min-width:1025px)  {
 	#menu .row {
-
-		font-size: 170px;
-	}/* tablet, landscape iPad, lo-res laptops ands desktops */ }
+		max-width: 100%;
+	}
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	#menu div:first-child * {
+		font-size: 12px;
+		margin: 0;
+	}
+	#palabras {
+		font-size: 25px;
+	}
+/* tablet, landscape iPad, lo-res laptops ands desktops */ }
