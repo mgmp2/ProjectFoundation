@@ -11,11 +11,11 @@ header {
 	position: fixed;
 	width: 100%;
 }
-.container {
-	width: 100%;
-}
 a {
 	color: #000;
+}
+a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
+	cursor: pointer;
 }
 #menu .row {
 	display: flex;
@@ -23,32 +23,25 @@ a {
 	padding: 7px 0;
 	font-size: 21px;
 }
-#box-menu-1 div {
+.container {
+	width: 100%;
+}
+#box-menu-1 div, #box-menu-2 > .container > div:last-child {
 	display: inline-block;
-}
-#menu > div .small-4 span {
-	font-size: 21px;
-	margin-right: 12px;
-}
-#menu > div:first-child a {
-	cursor: pointer;
 }
 #menu > div:nth-child(2) {
 	background: #fff;
 }
 #menu > div:nth-child(2) img {
 	width: 70px;
-	cursor: pointer;
 }
 .box-icon , .fi-list , .fi-shopping-bag{
 	color: gray;
 	font-size: 24px;
-	cursor: pointer;
 	margin-right: 14px;
 }
 #search-icon .box-icon {
 	transform: scaleX(-1);
-
 }
 .box-icon span:hover{
 	color: black;
@@ -56,11 +49,9 @@ a {
 #palabras {
 	margin-top: 170px;
 }
-
-
 @media (min-width:641px)  {
 	#menu .row {
-		    font-size: 15px;
+		font-size: 15px;
 	}
 	[name="search"] {
 		display: inline-block;
@@ -103,23 +94,16 @@ a {
 @media (min-width:1025px)  {
 	#menu .row {
 		max-width: 100%;
-
 	}
 	.container {
 		width: 90%;
 		margin: 0 auto!important;
-	}
-	.container > div:last-child {
-		display: inline-block;
 	}
 	#menu > div:first-child * {
 		font-size: 12px;
 	}
 	.box-icon *{
 		font-size: 24px!important;
-	}
-	#menu > div:nth-child(2) img {
-		
 	}
 	#palabras {
 		font-size: 25px;
