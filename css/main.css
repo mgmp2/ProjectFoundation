@@ -124,6 +124,18 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	}
 
 
+	@media only screen and (min-width: 1025px){
+	  #huge{
+	    height: 540px;
+	    width: 100%;
+	  }
+	  #catalogProducts .columns{
+	    padding: 0px 14px;
+	  }
+	  #catalogProductSeasons{
+	    padding-bottom: 28px;
+	  }
+	}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:1025px)  {
 	#menu .row {
@@ -145,16 +157,7 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	#palabras {
 		font-size: 25px;
 	}
-	#huge{
-		height: 540px;
-		width: 100%;
-	}
-	#catalogProducts .columns{
-		padding: 0px 14px;
-	}
-	#catalogProductSeasons{
-		padding-bottom: 28px;
-	}
+
 /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 
 @media only screen and (min-width: 641px) {
