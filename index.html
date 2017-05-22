@@ -272,10 +272,32 @@
     </section>
     <!-- PRODUCT DETAILS -->
     <section id="productDetails">
-      <div class="container">
-        <div class="row"></div>
+      <div class="row">
+        <div class="columns">
+          <p><a data-open="myBag">Click me for a modal</a></p>
+          <button ></button>
+          <!-- This is the first modal -->
+          <div class="reveal modal-right" id="myBag" data-reveal>
+            <h1>Hola :'3</h1>
+            <p class="lead">I have another modal inside of me!</p>
+            <a class="button" data-open="pay-bag">Checkout</a>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&#62;</span>
+            </button>
+          </div>
+          <!-- This is the nested modal -->
+          <div class="reveal modal-right" id="pay-bag" data-reveal>
+            <h2>ANOTHER MODAL!!!</h2>
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&#62;</span>
+            </button>
+          </div>
+        </div>
       </div>
+
     </section>
+
+
     <!-- FOOTER SECTION -->
     <footer>
       <div class="wrap row small-up-1 medium-up-3">
