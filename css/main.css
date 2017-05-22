@@ -85,6 +85,67 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	.menu > li {
 		vertical-align: top;
 	}
+
+	.clearfix{
+	  clear: both;
+	  overflow: hidden;
+	}
+	.paddtopBottom{
+	  padding: 14px 0;
+	}
+	.slider {
+	  width: 1200px;
+	  margin: 0 0 0 100px;
+	  background: none;
+	}
+	.imgcarousel{
+	  width: 230px;
+	}
+
+	.slick-slide {
+	  width: 230px;
+	  margin: 0px;
+	}
+
+	.slick-slide img {
+	  width: 230px;
+	}
+	/*.slick-prev, .slick-next{
+	  top:100px!important;
+	}*/
+	.slick-prev:before,
+	.slick-next:before {
+	    color: black!important;
+	}
+	#huge{
+	  height: 334px;
+	  width: 100%;
+	}
+	#catalogProducts .columns{
+	  padding: 14px 0px;
+	}
+
+	@media only screen and (min-width: 641px) {
+	  #huge{
+	    height: 334px;
+	    width: 100%;
+	  }
+	  #catalogProducts .columns{
+	    padding: 14px 0px;
+	  }
+	}
+	@media only screen and (min-width: 1025px){
+	  #huge{
+	    height: 540px;
+	    width: 100%;
+	  }
+	  #catalogProducts .columns{
+	    padding: 0px 14px;
+	  }
+	  #catalogProductSeasons{
+	    padding-bottom: 28px;
+	  }
+	}
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:1025px)  {
 	#menu .row {
