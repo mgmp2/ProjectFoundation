@@ -71,7 +71,7 @@
           <div class="small-1 medium-5 large-5 colum text-right">
             <a href="#" class="hide-for-small-only">Fab Insider &#65372; </a>
             <a href="#" class="hide-for-small-only">Registry &#65372; </a>
-            <span class="fi-shopping-bag"></span>
+            <span class="fi-shopping-bag" data-open="myBag"></span>
             <a href="#" class="hide-for-small-only">&#65372; Login</a>
           </div>
         </div>
@@ -274,11 +274,27 @@
     <section id="productDetails">
       <div class="row">
         <div class="columns">
-          <p><a data-open="myBag">Click me for a modal</a></p>
-          <button ></button>
+          <button data-open="myBag" type="button" class="success button">Add to Bag</button>
           <!-- This is the first modal -->
           <div class="reveal modal-right" id="myBag" data-reveal>
-            <h1>Hola :'3</h1>
+            <div class="header-bag">
+              <div class="row">
+                <h3>My Bag</h3>
+              </div>
+              <div class="row">
+                <p>Your Fab products are eligible for FREE SHIPPING*</p>
+              </div>
+            </div>
+            <ul class="vertical menu" data-accordion-menu>
+              <li>
+                <a href="#">Item 1</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">Item 1A</a></li>
+                  <li><a href="#">Item 1B</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Item 2</a></li>
+            </ul>
             <p class="lead">I have another modal inside of me!</p>
             <a class="button" data-open="pay-bag">Checkout</a>
             <button class="close-button" data-close aria-label="Close reveal" type="button">
