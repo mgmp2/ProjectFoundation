@@ -374,8 +374,72 @@
 
         </div>
       </div>
+    </section>
+    <!-- SECTION MODAL -->
+    <section class="modal">
+      <!-- First modal -->
+      <div class="reveal modal-right" id="myBag" data-reveal >
+        <div class="header-bag">
+          <div class="row">
+            <button class="close-button button-left" data-close aria-label="Close reveal" type="button" >
+              <span aria-hidden="true">&#62;</span>
+            </button>
+            <h4 class=" text-center">My Bag</h4>
+            <p class="gray text-center">Your Fab products are eligible </p>
+          </div>
+        </div>
+      <div class="pay-total">
+        <ul class="vertical menu" data-accordion-menu>
+          <li>
+            <a href="#">Order Summary</a>
+            <ul class="menu vertical nested">
+              <li><a href="#">Subtotal</a></li>
+              <li><a href="#">Estimated Shipping Free</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Total</a></li>
+        </ul>
+        <a class="button label alert" data-open="pay-bag">Checkout</a>
+      </div>
+      </div>
+      <!-- Second modal -->
+      <div class="reveal modal-right" id="pay-bag" data-reveal>
+        <button class="close-button  button-left" data-close aria-label="Close reveal" type="button">
+          <span aria-hidden="true">&#62;</span>
+        </button>
+        <div class="header-bag">
+          <div class="row">
+            <h4 class=" text-center">My Bag</h4>
+            <p class="gray text-center">Your Fab products are eligible </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column small-12 text-center">
+            <button class="close-button top-0" data-open="myBag" aria-label="Close reveal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h2>Select your payment method:</h2>
+            <p>Promo codes can be applied on the next screen.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column small-12 box-checkbox">
+            <input id="commite" type="checkbox"><span for="commite">I would like to donate $1 to support "International Rescue Commmite.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column small-12">
+            <a href="#" class="button label warning">Credit Card</a>
+            <a href="#" class="button label warning">Pay Pal</a>
+          </div>
+        </div>
+
+      </div>
 
     </section>
+
+
+
     <!-- FOOTER SECTION -->
     <footer>
       <div class="wrap row small-up-1 medium-up-3">
