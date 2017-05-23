@@ -124,6 +124,22 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 #padRigth{
  margin-right: -7px;
 }
+/*MOBILE MENU*/
+.modal-left {
+    top: 0!important;
+    width: 80%;
+    margin-left: 0;
+}
+#menu-vertical-first {
+    background: #f5f5f5 ;
+}
+#menu-vertical-first > ul > li {
+    border-bottom: 1px solid #e5e5e5 ;
+}
+#menu-vertical-first > ul > li a:hover, #menu-vertical-first > ul > li a:focus {
+    background: #e5e5e5 ;
+    color: #000;
+}
 /*ADD FOR MY BAG */
 .modal-right{
 display: block;

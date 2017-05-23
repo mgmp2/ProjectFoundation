@@ -43,9 +43,8 @@
       </div>
       <div class="row" id="box-menu-2">
         <div class="container text-center">
-          <div class="small-2 column show-for-small-only" data-responsive-toggle="menu-vertical">
-            <!-- <span class="fi-list"></span> -->
-            <button class="fi-list" type="button" data-toggle="menu-vertical"></button>
+          <div class="small-2 column show-for-small-only" >
+            <button class="fi-list" type="button" data-open="menu-vertical-first"></button>
           </div>
           <div class="small-8 medium-2 large-1 column">
             <img src="assets/img/email/fab_logo.png" alt="">
@@ -82,29 +81,34 @@
             <div id="menu-vertical">
               <div class="row">
                 <div class="columns">
-                  <ul class="vertical menu show-for-small-only" data-accordion-menu >
-                    <li class="menu-text">NEW ARRIVALS</li>
-                    <li>
-                      <a href="#">ART</a>
-                      <ul class="menu vertical nested">
-                        <li><a href="#">Featured Styles</a></li>
-                        <li><a href="#">Featured Subjects</a></li>
-                        <li><a href="#">Featured Types</a></li>
-                        <li><a href="#">All</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Home</a>
-                      <ul class="menu vertical nested">
-                        <li>
-                          <a href="#">Home Décor</a>
-                        </li>
-                        <li><a href="#">Kitchen</a></li>
-                        <li><a href="#">Dining</a></li>
-                        <li><a href="#">Bed &amp; Bath</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <!-- First modal -->
+                  <div class="reveal modal-left show-for-small-only" id="menu-vertical-first" data-reveal>
+                    <h3></h3>
+                    <ul class="vertical menu " data-accordion-menu >
+
+                      <li class="menu-text">NEW ARRIVALS</li>
+                      <li>
+                        <a href="#">ART</a>
+                        <ul class="menu vertical nested">
+                          <li><a href="#">Featured Styles</a></li>
+                          <li><a href="#">Featured Subjects</a></li>
+                          <li><a href="#">Featured Types</a></li>
+                          <li><a href="#">All</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Home</a>
+                        <ul class="menu vertical nested">
+                          <li>
+                            <a href="#">Home Décor</a>
+                          </li>
+                          <li><a href="#">Kitchen</a></li>
+                          <li><a href="#">Dining</a></li>
+                          <li><a href="#">Bed &amp; Bath</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
                   <ul class="dropdown menu hide-for-small-only expanded" data-dropdown-menu>
                     <li class="menu-text">NEW ARRIVALS
                     </li>
@@ -136,7 +140,6 @@
         </div>
       </div>
     </header>
-
     <!-- SEASON PRODUCTS -->
     <section id="catalogProducts">
       <div id="catalogProductSeasons" class="container">
