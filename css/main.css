@@ -124,6 +124,7 @@ padding: 14px 0px;
 #padRigth{
  margin-right: -7px;
 }
+
 @media (min-width:641px)  {
 	#menu .row {
 		font-size: 15px;
@@ -166,7 +167,9 @@ padding: 14px 0px;
  #catalogProducts .columns{
 	 padding: 14px 0px;
  }
-
+ #catalogProductSeasons{
+ 	margin-top: 170px;
+ }
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:1025px)  {
 	#menu .row {
