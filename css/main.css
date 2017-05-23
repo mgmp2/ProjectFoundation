@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Asar|Droid+Serif|Lato');
 body, html {
 	background-color: #fff !important;
+	font-family: 'Lato', sans-serif;
 }
 /*MENU*/
 /*ALERT: es de fondo negro con letras blancas
@@ -92,11 +93,14 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 	color: #d0021b;
 	border: 1px solid #d0021b;
 	padding: 14px;
-
+	vertical-align: super;
 }
 .socialcar{
 	font-size: 32px;
 	padding: 14px 21px;
+}
+.classnone{
+	display: none;
 }
 #btnaddcar{
 	background-color: #d0021b;
@@ -114,7 +118,12 @@ height: 334px;
 
 padding: 14px 0px;
 }
-
+#ulimages{
+ display: flex;
+}
+#padRigth{
+ margin-right: -7px;
+}
 @media (min-width:641px)  {
 	#menu .row {
 		font-size: 15px;
@@ -186,8 +195,22 @@ padding: 14px 0px;
   #catalogProducts .columns{
     padding: 0px 14px;
   }
-  #catalogProductSeasons{
+  #catalogProductSeasons, #catalogProductSeasons2{
     padding-bottom: 28px;
   }
-
+	#productDetails, #catalogProducts{
+		margin-top: 170px;
+	}
+	#catalogProductSeasons #huge{
+		padding-bottom: 28px;
+	}
+	#ulimages{
+	 display: table;
+	}
 /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
+@media (max-width:641px)  {
+	#catalogProductSeasons .small-12 #huge{
+	 margin-top: 125px;
+	}
+}
