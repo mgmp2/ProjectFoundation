@@ -1,0 +1,12 @@
+.footer{
+  border: 1px solid #e5e5e5;
+  align-items: stretch;
+  align-content: flex-end;
+  padding: 15px;
+  border-left: none;
+  border-right: none;
+  padding-left: 0;
+}
+.menu-footer{
+  padding-left: 10px;
+}
