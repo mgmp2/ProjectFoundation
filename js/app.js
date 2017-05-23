@@ -42,4 +42,9 @@ window.addEventListener("load", function(event) {
     document.getElementById("imgmain").setAttribute("src",imgsecondary3);
   });
 
+  var btnaddcar = document.getElementById("btnaddcar");
+  btnaddcar.addEventListener("click", function () {
+    document.getElementById("imgbodybag").setAttribute("src",document.getElementById("imgmain").getAttribute("src"));
+  });
+
 });
