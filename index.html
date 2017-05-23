@@ -273,40 +273,65 @@
     <!-- PRODUCT DETAILS -->
     <section id="productDetails">
       <div class="row">
-        <div class="columns">
+        <div class="columns small-12">
           <button data-open="myBag" type="button" class="success button">Add to Bag</button>
-          <!-- This is the first modal -->
-          <div class="reveal modal-right" id="myBag" data-reveal>
+          <!-- First modal -->
+          <div class="reveal modal-right" id="myBag" data-reveal >
             <div class="header-bag">
               <div class="row">
-                <h3>My Bag</h3>
-              </div>
-              <div class="row">
-                <p>Your Fab products are eligible for FREE SHIPPING*</p>
+                <button class="close-button button-left" data-close aria-label="Close reveal" type="button" >
+                  <span aria-hidden="true">&#62;</span>
+                </button>
+                <h4 class=" text-center">My Bag</h4>
+                <p class="gray text-center">Your Fab products are eligible </p>
               </div>
             </div>
+          <div class="pay-total">
             <ul class="vertical menu" data-accordion-menu>
               <li>
-                <a href="#">Item 1</a>
+                <a href="#">Order Summary</a>
                 <ul class="menu vertical nested">
-                  <li><a href="#">Item 1A</a></li>
-                  <li><a href="#">Item 1B</a></li>
+                  <li><a href="#">Subtotal</a></li>
+                  <li><a href="#">Estimated Shipping Free</a></li>
                 </ul>
               </li>
-              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Total</a></li>
             </ul>
-            <p class="lead">I have another modal inside of me!</p>
-            <a class="button" data-open="pay-bag">Checkout</a>
-            <button class="close-button" data-close aria-label="Close reveal" type="button">
-              <span aria-hidden="true">&#62;</span>
-            </button>
+            <a class="button label alert" data-open="pay-bag">Checkout</a>
           </div>
-          <!-- This is the nested modal -->
+          </div>
+          <!-- Second modal -->
           <div class="reveal modal-right" id="pay-bag" data-reveal>
-            <h2>ANOTHER MODAL!!!</h2>
-            <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <button class="close-button  button-left" data-close aria-label="Close reveal" type="button">
               <span aria-hidden="true">&#62;</span>
             </button>
+            <div class="header-bag">
+              <div class="row">
+                <h4 class=" text-center">My Bag</h4>
+                <p class="gray text-center">Your Fab products are eligible </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column small-12 text-center">
+                <button class="close-button top-0" data-open="myBag" aria-label="Close reveal" type="button">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h2>Select your payment method:</h2>
+                <p>Promo codes can be applied on the next screen.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column small-12 box-checkbox">
+                <input id="commite" type="checkbox"><span for="commite">I would like to donate $1 to support "International Rescue Commmite.</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column small-12">
+                <a href="#" class="button label warning">Credit Card</a>
+                <a href="#" class="button label warning">Pay Pal</a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
