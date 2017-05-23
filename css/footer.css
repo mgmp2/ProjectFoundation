@@ -17,6 +17,7 @@ h4{
 .menu-footer{
   padding-left: 10px;
   color: #7b7b7b;
+
 }
 /*departments*/
 .departments{
@@ -27,6 +28,7 @@ h4{
   border-right: none;
   border-top: none;
   padding-left: 10px;
+  height: 350px;
 }
 .menu-departments{
   display: flex;
