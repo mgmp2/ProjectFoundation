@@ -110,13 +110,13 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 }
 #huge{
 
-height: 334px;
+	height: 334px;
   width: 100%;
 }
 
 #catalogProducts .columns{
 
-padding: 14px 0px;
+	padding: 14px 0px;
 }
 #ulimages{
  display: flex;
@@ -124,6 +124,60 @@ padding: 14px 0px;
 #padRigth{
  margin-right: -7px;
 }
+/*ADD FOR MY BAG */
+.modal-right{
+display: block;
+top: 0!important;
+margin-right: 0px;
+height: 100vh;
+width: 335px!important;
+}
+.button-left {
+left: 1rem;
+}
+#myBag, #pay-bag {
+padding: 0;
+position: relative;
+}
+.header-bag h4 {
+background: #000;
+color: #fff;
+margin: 0;
+}
+.gray {
+background-color: #f5f5f5;
+color: #000;
+}
+[data-open="pay-bag"], .box-checkbox {
+width: 19rem;
+padding: 1rem 0;
+margin-right: 14px;
+margin-left: 14px;
+}
+.pay-total {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+.pay-total a:hover {
+color: #000;
+}
+#pay-bag a {
+width: 19rem;
+color: gray;
+border: 1px solid gray;
+}
+#pay-bag a:hover {
+color: #000;
+background: #fff;
+}
+.box-checkbox {
+background: #f5f5f5;
+margin-bottom: 21px;
+border-radius: 12px;
+spadding-left: 14px;
+}
+
 
 @media (min-width:641px)  {
 	#menu .row {
