@@ -1,15 +1,19 @@
 /*menu footer*/
 section{
   color: #7b7b7b;
+  min-width: 100%;
 }
-h4{
+h5{
   color: #000;
+}
+footer > div {
+  min-width: 100%;
 }
 .footer{
   border: 1px solid #e5e5e5;
   align-items: stretch;
   align-content: flex-end;
-  padding: 15px;
+  padding: 20px;
   border-left: none;
   border-right: none;
   padding-left:20px;
@@ -22,13 +26,34 @@ h4{
 .departments{
   border: 1px solid #e5e5e5;
   padding: 25px;
-  height: auto;
   border-left: none;
   border-top: none;
   padding-left: 5px;
-  height: 350px;
+  height: 238px;
 }
 .menu-departments{
   display: flex;
   color: #7b7b7b;
+}
+/*most*/
+.most{
+  border: 1px solid #e5e5e5;
+  padding: 25px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 5px;
+  height: 238px;
+  display: inline;
+  margin-left: 0;
+  margin-right: 0;
+}
+.menu-most{
+  display: flex;
+  flex-wrap: wrap;
+  color: #7b7b7b;
+  margin-left: 10px;
+}
+.text-most{
+  margin-left: 25px;
 }
