@@ -4,7 +4,7 @@ h5{
 }
 /*imagenes footer*/
 
-@media (min-width:641px)  {
+@media (min-width:430px)  {
   .row {
     font-size: 15px;
   }
@@ -16,24 +16,26 @@ h5{
   }
   .menu-footer{
     padding-left: 10px;
-    color: #7b7b7b;
+    color: #6D6D6D;
   }
   /*departments*/
   .depa{
     padding-left: 5px;
+    display: flex;
+    flex-direction: column(2);
   }
   .menu-departments{
     display: flex;
-    color: #7b7b7b;
+    color: #6D6D6D;
   }
   /* most */
 .most{
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #6D6D6D;
   padding: 3px;
 }
 .menu-most{
   display: flex;
-  color: #7b7b7b;
+  color: #6D6D6D;
   margin-left: 10px;
 }
 .text-most{
@@ -69,75 +71,56 @@ h5{
     color: #fff;
     width: auto;
   }
-  
+
   .imagen-footer{
-    position: fixed;
+    position: absolute;
     display: flex;
     align-items: flex-end;
   }
-/*
-@media (min-width:1025px)  {
+
+@media (min-width:668px)  {
   .footer{
-    max-width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+    padding-left:20px;
   }
   .menu-footer{
     padding-left: 10px;
     color: #7b7b7b;
   }
-  /*departments
   .depa{
-    padding-left: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 25px;
+    height: 250px;
+    display: block;
   }
   .menu-departments{
     display: flex;
     color: #7b7b7b;
   }
-  /* most
-.most{
-  border-bottom: 1px solid #e5e5e5;
-  padding: 3px;
-}
-.menu-most{
-  display: flex;
-  color: #7b7b7b;
-  margin-left: 10px;
-}
-.text-most{
-  margin-left: 25px;
-}
-  /* quiz
-.quiz{
-  padding: 20px;
-}
- /*app
-  .app{
-  padding-bottom: 20px;
+  /*most*/
+  .most{
+    border: 1px solid #e5e5e5;
+    padding: 25px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-left: 5px;
+    height: 250px;
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
   }
-  /*yourMail
-  .registrar{
-   padding: 20px;
-  }
-  .yourMail{
+  .menu-most{
     display: flex;
-    flex-direction: row;
-  }
-  .email{
+    flex-wrap: wrap;
+    color: #7b7b7b;
     margin-left: 10px;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    height: 40px;
-    background-color: #000;
-    color: #fff;
-    width: auto;
+    flex-direction: column;
   }
-  /*imagenes footer*/
-  .imagen-footer{
-    position: absolute;
-    display: flex;
-    align-items:flex-end;
+  .text-most{
+    margin-left: 25px;
   }
-
-
-
 }
