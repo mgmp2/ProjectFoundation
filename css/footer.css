@@ -1,3 +1,10 @@
+/*menu footer*/
+section{
+  color: #7b7b7b;
+}
+h4{
+  color: #000;
+}
 .footer{
   border: 1px solid #e5e5e5;
   align-items: stretch;
@@ -9,4 +16,19 @@
 }
 .menu-footer{
   padding-left: 10px;
+  color: #7b7b7b;
+}
+/*departments*/
+.departments{
+  border: 1px solid #e5e5e5;
+  padding: 15px;
+  height: auto;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 10px;
+}
+.menu-departments{
+  display: flex;
+  color: #7b7b7b;
 }
