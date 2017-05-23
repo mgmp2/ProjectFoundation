@@ -108,6 +108,18 @@ a, img, .fi-shopping-bag, .fi-telephone, .fi-mail {
 footer {
 	background: gray;
 }
+/*MEGA MENU*/
+.top-bar-section .has-dropdown {
+  position: static;
+
+}
+ .top-bar-section .has-dropdown  a {
+   position: relative;
+   }
+.top-bar-section .has-dropdown.moved {
+  position: static;
+
+}
 @media (min-width:641px)  {
 	#menu .row {
 		font-size: 15px;
