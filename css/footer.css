@@ -29,7 +29,7 @@ footer > div {
   border-left: none;
   border-top: none;
   padding-left: 5px;
-  height: 238px;
+  height: 250px;
 }
 .menu-departments{
   display: flex;
@@ -43,7 +43,7 @@ footer > div {
   border-right: none;
   border-top: none;
   padding-left: 5px;
-  height: 238px;
+  height: 250px;
   display: inline;
   margin-left: 0;
   margin-right: 0;
@@ -56,4 +56,47 @@ footer > div {
 }
 .text-most{
   margin-left: 25px;
+}
+/*questions*/
+.quiz{
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px;
+  padding-left: auto;
+  height: 238px;
+  display: inline;
+}
+/*app*/
+.app{
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px;
+  height: 238px;
+  display: inline;
+  text-align:center;
+  padding: 30px;
+}
+.socializar{
+  margin-top: 60px;
+  padding: 5px;
+}
+/*yourMail*/
+.registrar{
+  border-bottom: 1px solid #e5e5e5;
+  padding: 25px;
+  padding-left: auto;
+  height: 238px;
+  display: inline;
+}
+.yourMail{
+  display: flex;
+  flex-direction: row;
+}
+.email{
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  width: auto;
 }
