@@ -11,10 +11,13 @@ Este proyecto se realizó como un reto en equipo
 ```
 
 ## Descripción
-  Se decidió realizar la consigna de copia de la página web de Fab.com https://fab.com/ haciendo uso del framework FOUNDATION.
+  Se realizó la página web de Fab.com https://fab.com/ haciendo uso del framework FOUNDATION.
+  Link del gh-pages: https://mgmp2.github.io/ProjectFoundation/
 
 + MENÚ
 Se realizazó el menú mostrado con los requerimientos realizados. Se puede visualizar el logo, un buscador, además de el login.
+
+
   ![menu](assets/screenshot/menu.png)
 
 + PORTADA
@@ -26,6 +29,10 @@ Se realizazó el menú mostrado con los requerimientos realizados. Se puede visu
 + FOOTER
   ![footer](assets/screenshot/footer.png)
 
+## Para ver la funcionalidad de agregar al carrito, hacer clicn en la siguiente imagen
+
+
+  ![demostracion](assets/screenshot/productSelect.png)
 ### Members
 
 - Marilu Llamoca
