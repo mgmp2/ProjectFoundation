@@ -29,7 +29,7 @@ Se realizazó el menú mostrado con los requerimientos realizados. Se puede visu
 + FOOTER
   ![footer](assets/screenshot/footer.png)
 
-## Para ver la funcionalidad de agregar al carrito, hacer clic en la imagen encerrada en un recuadro rojo.
+## Para ver la funcionalidad de agregar al carrito, hacer clic en la imagen encerrada en un recuadro rojo, en la seccion de recomendaciones for ##bags travel.
 
 
   ![demostracion](assets/screenshot/productSelect.png)
